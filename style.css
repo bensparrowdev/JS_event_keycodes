@@ -1,0 +1,74 @@
+/*font-family: 'Noto Sans JP', sans-serif;*/
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Noto Sans JP', Arial, sans-serif;
+    background: #65D1E8;
+    color: #1E2122;
+    overflow: hidden;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card {}
+
+#mainNumber {
+    font-size: 140px;
+    font-weight: 800;
+}
+
+@media (max-width: 770px) {
+    #mainNumber {
+        font-size: 90px;
+    }
+}
+
+.cards {
+    display: flex;
+}
+
+.which-card {
+    margin: 10px;
+    width: 200px;
+    background: #F0FAF2;
+}
+
+.which-head {
+    text-align: center;
+    color: #F0FAF2;
+    background-color: #000;
+    margin: 0px 5px;
+}
+
+.which-body #which {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 42px;
+    margin: 20px 0px;
+}
+
+.keycode-card {
+    margin: 10px;
+    width: 255px;
+    background: #F0FAF2;
+}
+
+.keycode-head {
+    text-align: center;
+    color: #F0FAF2;
+    background-color: #000;
+    margin: 0px 5px;
+}
+
+.keycode-body #keycode {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    margin: 20px 0px;
+}
